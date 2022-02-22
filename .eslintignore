@@ -1,0 +1,5 @@
+jest.config.js
+webpack.config.js
+dist
+vitest.config.*
+.eslintrc.js

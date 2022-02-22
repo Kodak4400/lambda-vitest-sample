@@ -1,0 +1,32 @@
+{
+  "name": "lambda-vitest-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.92",
+    "@types/node": "16",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "aws-cdk": "^2.13.0",
+    "aws-cdk-lib": "^2.13.0",
+    "aws-lambda-mock-context": "^3.2.1",
+    "constructs": "^10.0.69",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5",
+    "vite": "^2.8.4",
+    "vitest": "^0.5.0"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.7"
+  }
+}
